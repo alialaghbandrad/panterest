@@ -1,0 +1,7 @@
+{{ form_start(monFormulaire) }}
+    {{ form_widget(monFormulaire) }}
+
+    <div class="d-grid gap-2">
+        <input type="submit" value="{{ submitButtonText ?? 'Create Pin' }}" class="btn btn-primary btn-block mt-3" formnovalidate>
+    </div>
+{{ form_end(monFormulaire) }}
